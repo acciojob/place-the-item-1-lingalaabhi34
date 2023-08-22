@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.holder{
+
+    
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,100px);
+text-align: center;
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+	
+    
+}
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
